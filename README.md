@@ -12,7 +12,7 @@ In order to run this container you'll need docker installed.
 
 ## Usage
 
-The docker image provides the `SeqFilter` tool. It will run the `SeqFilter` command as entrypoint.
+The docker image provides the [SeqFilter](https://github.com/BioInf-Wuerzburg/SeqFilter) tool. It will run the `SeqFilter` command as entrypoint.
 Therefore, running a container is as easy as:
 
 ```
@@ -46,3 +46,17 @@ Specific tags are used for different SeqFilter releases. Latest release is [![](
 | [![](https://images.microbadger.com/badges/version/greatfireball/ime_seqfilter:master.svg)](https://microbadger.com/images/greatfireball/ime_seqfilter:master "Get your own version badge on microbadger.com") | [![](https://images.microbadger.com/badges/commit/greatfireball/ime_seqfilter:master.svg)](https://microbadger.com/images/greatfireball/ime_seqfilter:master "Get your own commit badge on microbadger.com") | [![](https://images.microbadger.com/badges/image/greatfireball/ime_seqfilter:master.svg)](https://microbadger.com/images/greatfireball/ime_seqfilter:master "Get your own image badge on microbadger.com") |
 | [![](https://images.microbadger.com/badges/version/greatfireball/ime_seqfilter:develop.svg)](https://microbadger.com/images/greatfireball/ime_seqfilter:develop "Get your own version badge on microbadger.com") | [![](https://images.microbadger.com/badges/commit/greatfireball/ime_seqfilter:develop.svg)](https://microbadger.com/images/greatfireball/ime_seqfilter:develop "Get your own commit badge on microbadger.com") | [![](https://images.microbadger.com/badges/image/greatfireball/ime_seqfilter:develop.svg)](https://microbadger.com/images/greatfireball/ime_seqfilter:develop "Get your own image badge on microbadger.com") |
 | [![](https://images.microbadger.com/badges/version/greatfireball/ime_seqfilter:2.1.9.svg)](https://microbadger.com/images/greatfireball/ime_seqfilter:2.1.9 "Get your own version badge on microbadger.com") | [![](https://images.microbadger.com/badges/commit/greatfireball/ime_seqfilter:2.1.9.svg)](https://microbadger.com/images/greatfireball/ime_seqfilter:2.1.9 "Get your own commit badge on microbadger.com") | [![](https://images.microbadger.com/badges/image/greatfireball/ime_seqfilter:2.1.9.svg)](https://microbadger.com/images/greatfireball/ime_seqfilter:2.1.9 "Get your own image badge on microbadger.com") |
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Author
+
+- **Frank Förster** - *Initial work* - [greatfireball](https://github.com/greatfireball)
+
+See also the list of [contributors](https://github.com/greatfireball/ime_seqfilter/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
