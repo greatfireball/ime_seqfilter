@@ -20,6 +20,10 @@ RUN apt update && apt install --yes git make && git clone https://github.com/Bio
 
 ENV PATH "$PATH:/opt/SeqFilter/bin/"
 
+ADD generate_test_seq.pl /opt/SeqFilter
+
+RUN /opt/SeqFilter/generate_test_seq.pl >/opt/SeqFilter/test.fa
+
 VOLUME /data
 WORKDIR /data
 

@@ -23,16 +23,16 @@ Just provide all required parameters via command line.
 Default working directory is `/data`.
 Therefore, input data should be mounted using `/data` volume.
 
-Another example using `--min-length 10k` and `--base-composition N` as parameter and the test file from SeqFilter as input:
+Another example using `--min-length 10000` and `--base-composition N` as parameter and the test file from SeqFilter as input:
 
 ```
-docker run --rm greatfireball/ime_seqfilter --min-length 10k --base-composition N /opt/SeqFilter/test.fa
+docker run --rm greatfireball/ime_seqfilter --min-length 10000 --base-composition N /opt/SeqFilter/test.fa
 ```
 
 Running the command to get the information for a local file `localfile` in the current folder:
 
 ```
-docker run --rm -v $PWD:/data greatfireball/ime_seqfilter --min-length 10k --base-composition N localfile
+docker run --rm -v $PWD:/data greatfireball/ime_seqfilter --min-length 10000 --base-composition N localfile
 ```
 
 ## Releases
