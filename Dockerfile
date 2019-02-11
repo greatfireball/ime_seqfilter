@@ -22,3 +22,5 @@ ENV PATH "$PATH:/opt/SeqFilter/bin/"
 
 VOLUME /data
 WORKDIR /data
+
+ENTRYPOINT ["SeqFilter"]
