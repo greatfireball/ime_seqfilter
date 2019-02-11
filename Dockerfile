@@ -16,7 +16,7 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
 
 WORKDIR /opt
 
-RUN apt update && apt install --yes git make && git clone https://github.com/BioInf-Wuerzburg/SeqFilter.git && cd SeqFilter && git checkout d92ff27b810be76e4f9394c4f9e98648ebfbc915 && make
+RUN apt update && apt install --yes git make && git clone https://github.com/BioInf-Wuerzburg/SeqFilter.git && cd SeqFilter && git checkout d92ff27b810be76e4f9394c4f9e98648ebfbc915 && make && rm -rf .git && apt remove --yes git make
 
 ENV PATH "$PATH:/opt/SeqFilter/bin/"
 
