@@ -16,4 +16,7 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
 
 WORKDIR /opt
 
-RUN apt update && apt install --yes git make && git clone https://github.com/BioInf-Wuerzburg/SeqFilter.git && cd SeqFilter && make 
+RUN apt update && apt install --yes git make && git clone https://github.com/BioInf-Wuerzburg/SeqFilter.git && cd SeqFilter && make
+
+VOLUME /data
+WORKDIR /data
