@@ -22,7 +22,7 @@ RUN apt update && \
 	make && \
     git clone https://github.com/BioInf-Wuerzburg/SeqFilter.git && \
     cd SeqFilter && \
-    git checkout d92ff27b810be76e4f9394c4f9e98648ebfbc915 && \
+    git checkout v2.1.10 && \
     make && \
     rm -rf .git && \
     apt remove --yes \
